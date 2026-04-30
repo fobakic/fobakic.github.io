@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'rostov';
+    src: url('ofont.ru_Rostov.ttf');
+}
+.b-1{
+    background-color: #B1E764;
+    height: 110vh;
+    font-family: 'rostov';
+    padding: 0px 400px;
+    color: 	#488310;
+}
+.b-2{
+    background-color: #f0f8ff;
+    height: 650px;
+}
+.logo{
+     background-color:#488310;
+     padding: 10px;
+     border-radius: 15px;
+     color: #B1E764;
+     margin: 15px 0px;
+     display: inline-block;
+     font-size: 60px;
+}
+
+
+
+.text1{
+    font-size: 102px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.text2{
+    font-size: 30px;
+}
+.web_img{
+    display: inline-block;
+    margin-left: 125px;
+}
+.img1{
+    width: 175px;
+}
+.buy_button{
+    text-decoration: none;
+    color: #568610;
+    background-color: #8FCE33;
+    padding: 5px 10px;
+    font-size: 45px;
+    font-weight: 900;
+    margin-left: 20px;
+    border: 2px solid green;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.buy_button:hover{
+    transform: scale(1.15);
+}
+h3{
+    font-size: 35px;
+}
+.b-2{
+    padding: 0px 100px;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'rostov';
+
+}
+.about_me_img{
+    float: left;
+}
+.about_me_text{
+    width: 90%;
+    margin-left: 265px;
+}
+
+
+.my_skills_1{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-top: 300px;
+}
+.my_skills_se{
+    margin-top: 25px;
+    display: inline-block;
+    width: 65%;
+}
+.figure_1{
+    width: 35px;
+}
+.b-3{
+    background-color: #f0f8ff;
+    height: 700px;
+    padding: 0px 100px;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'rostov';
+}
+.my_project{
+    margin-top: 85px;
+}
+body{
+    background-color: #f0f8ff;
+}
+.proj_left{
+    float: left;
+}
+.proj_right{
+    margin-left: 465px;
+}
+.slider{
+    margin: 0 auto;
+}
+.contacts{
+    background-color: #d3dce3;
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 150px;
+    padding: 25px 450px;
+    font-family: 'rostov';
+}
+.cont, .social{
+    display: inline-block;
+}
+.telegram, .email{
+    display: inline-block;
+}
+.social_media{
+    width: 60px;
+}
+
+.social > div{
+    margin-left: 25px;
+}
+.my_skills{
+    background-color: rgb(203, 211, 218);
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 28, 55);
+    border-radius: 25px;
+    display: inline-block;
+    width: 45%; 
+    margin: 0px auto;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+.my_skills:hover{
+    font-size: 35px;
+    transform: scale(1.05)
+}
